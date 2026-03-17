@@ -4,7 +4,8 @@
       "Bash(for dir:*)",
       "Bash(do echo:*)",
       "Read(//c/Users/hejinxiang/Downloads/flutter_samples-master \\(1\\)/flutter_samples-master/ohos/docs/$dir/**)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(ls:*)"
     ]
   }
 }
