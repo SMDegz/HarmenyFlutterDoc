@@ -1,4 +1,6 @@
 {
+  "url": "https://context7.com/smdegz/harmenyflutterdoc",
+  "public_key": "pk_UpQGkPvCSmVvZG0jcQQlz",
   "name": "Flutter for OpenHarmony 官方文档",
   "version": "1.0.0",
   "description": "Flutter OpenHarmony 平台适配完整文档,包含框架介绍、环境搭建、功能开发、性能调优、调试调测等全方位指导",
