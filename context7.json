@@ -1,0 +1,460 @@
+{
+  "name": "Flutter for OpenHarmony 官方文档",
+  "version": "1.0.0",
+  "description": "Flutter OpenHarmony 平台适配完整文档,包含框架介绍、环境搭建、功能开发、性能调优、调试调测等全方位指导",
+  "language": "zh-CN",
+  "languages": ["zh-CN", "en"],
+  "homepage": "README_EN.md",
+  "navigation": [
+    {
+      "title": "框架介绍",
+      "path": "01_framework",
+      "icon": "📚",
+      "children": [
+        {
+          "title": "框架介绍",
+          "path": "01_framework/README.md"
+        },
+        {
+          "title": "Framework Introduction",
+          "path": "01_framework/README_EN.md",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "title": "架构介绍",
+      "path": "02_architecture",
+      "icon": "🏗️",
+      "children": [
+        {
+          "title": "架构介绍",
+          "path": "02_architecture/README.md"
+        },
+        {
+          "title": "Architecture",
+          "path": "02_architecture/README_EN.md",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "title": "环境搭建",
+      "path": "03_environment",
+      "icon": "⚙️",
+      "children": [
+        {
+          "title": "环境搭建概览",
+          "path": "03_environment/README.md"
+        },
+        {
+          "title": "OpenHarmony版Flutter环境搭建指导",
+          "path": "03_environment/openHarmony-flutter环境搭建指导.md"
+        },
+        {
+          "title": "OpenHarmony设备运行指导",
+          "path": "03_environment/OpenHarmony设备运行指导.md"
+        },
+        {
+          "title": "Environment Setup",
+          "path": "03_environment/README_EN.md",
+          "lang": "en"
+        },
+        {
+          "title": "OpenHarmony Device Operation Guide",
+          "path": "03_environment/OpenHarmony-device-operation-guide.md",
+          "lang": "en"
+        },
+        {
+          "title": "OpenHarmony Flutter Environment Setup",
+          "path": "03_environment/openharmony-flutter-environment-setup.md",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "title": "功能开发",
+      "path": "04_development",
+      "icon": "💻",
+      "children": [
+        {
+          "title": "功能开发概览",
+          "path": "04_development/README.md"
+        },
+        {
+          "title": "如何使用 FlutterPage",
+          "path": "04_development/如何使用 FlutterPage.md"
+        },
+        {
+          "title": "如何使用混合开发添加跳转 FlutterEntry",
+          "path": "04_development/如何使用混合开发添加跳转 FlutterEntry.md"
+        },
+        {
+          "title": "如何使用Flutter与OpenHarmony通信 FlutterChannel",
+          "path": "04_development/如何使用Flutter与OpenHarmony通信 FlutterChannel.md"
+        },
+        {
+          "title": "Flutter OHOS外接纹理适配简介",
+          "path": "04_development/Flutter OHOS外接纹理适配简介.md"
+        },
+        {
+          "title": "Flutter OHOS外接纹理第一帧(背景)自定义",
+          "path": "04_development/Flutter OHOS外接纹理第一帧(背景)自定义.md"
+        },
+        {
+          "title": "如何使用多引擎 FlutterEngineGroup",
+          "path": "04_development/如何使用多引擎 FlutterEngineGroup.md"
+        },
+        {
+          "title": "如何使用PlatformView",
+          "path": "04_development/如何使用PlatformView.md"
+        },
+        {
+          "title": "PlatformView同层渲染方案适配切换指导",
+          "path": "04_development/PlatformView同层渲染方案适配切换指导.md"
+        },
+        {
+          "title": "如何使用混合开发 module",
+          "path": "04_development/如何使用混合开发 module.md"
+        },
+        {
+          "title": "使用hvigor插件方式编译flutter项目",
+          "path": "04_development/使用hvigor插件方式编译flutter项目.md"
+        },
+        {
+          "title": "开发package",
+          "path": "04_development/开发package.md"
+        },
+        {
+          "title": "开发plugin",
+          "path": "04_development/开发plugin.md"
+        },
+        {
+          "title": "开发FFI plugin",
+          "path": "04_development/开发FFI plugin.md"
+        },
+        {
+          "title": "如何使用LTPO功能",
+          "path": "04_development/如何使用LTPO功能.md"
+        },
+        {
+          "title": "OpenHarmony原生代码调试指导",
+          "path": "04_development/openHarmony-flutter原生代码调试指导.md"
+        },
+        {
+          "title": "OpenHarmony应用构建指导",
+          "path": "04_development/openHarmony-flutter应用构建指导.md"
+        },
+        {
+          "title": "Function Development",
+          "path": "04_development/README_EN.md",
+          "lang": "en"
+        },
+        {
+          "title": "Developing a Package",
+          "path": "04_development/developing-a-package.md",
+          "lang": "en"
+        },
+        {
+          "title": "Developing a Plugin",
+          "path": "04_development/developing-a-plugin.md",
+          "lang": "en"
+        },
+        {
+          "title": "Developing an FFI Plugin",
+          "path": "04_development/developing-an-ffi-plugin.md",
+          "lang": "en"
+        },
+        {
+          "title": "External Texture Adaptation for Flutter",
+          "path": "04_development/external-texture-adaptation-for-flutter.md",
+          "lang": "en"
+        },
+        {
+          "title": "External Texture First Frame Customization",
+          "path": "04_development/external-texture-first-frame-(background)-customization-for-flutter.md",
+          "lang": "en"
+        },
+        {
+          "title": "Import Custom Rendered Content into Flutter",
+          "path": "04_development/Import-Custom-Rendered-Content-into-Flutter.md",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "title": "性能调优",
+      "path": "05_performance",
+      "icon": "⚡",
+      "children": [
+        {
+          "title": "性能调优概览",
+          "path": "05_performance/README.md"
+        },
+        {
+          "title": "性能分析定界指南",
+          "path": "05_performance/性能分析定界指南.md"
+        },
+        {
+          "title": "性能分析第一步-梳理线程顺序",
+          "path": "05_performance/性能分析第一步-梳理线程顺序.md"
+        },
+        {
+          "title": "性能分析-帧渲染跟踪",
+          "path": "05_performance/性能分析-帧渲染跟踪.md"
+        },
+        {
+          "title": "性能分析-滑动响应时延",
+          "path": "05_performance/性能分析-滑动响应时延.md"
+        },
+        {
+          "title": "性能调优-图片加载",
+          "path": "05_performance/性能调优-图片加载.md"
+        },
+        {
+          "title": "性能调优-内存分析与优化实践",
+          "path": "05_performance/性能调优-内存分析与优化实践.md"
+        },
+        {
+          "title": "性能调优-毕昇编译器开PGO",
+          "path": "05_performance/性能调优-毕昇编译器开PGO.md"
+        },
+        {
+          "title": "Performance Tuning",
+          "path": "05_performance/README_EN.md",
+          "lang": "en"
+        },
+        {
+          "title": "Performance Delimitation",
+          "path": "05_performance/performance-delimitation.md",
+          "lang": "en"
+        },
+        {
+          "title": "Performance Frame Rendering Tracking",
+          "path": "05_performance/performance-frame-rendering-tracking.md",
+          "lang": "en"
+        },
+        {
+          "title": "Performance Sliding Response Time",
+          "path": "05_performance/performance-sliding-response-time.md",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "title": "调试调测",
+      "path": "06_debug",
+      "icon": "🐛",
+      "children": [
+        {
+          "title": "调试调测概览",
+          "path": "06_debug/README.md"
+        },
+        {
+          "title": "调试dart代码",
+          "path": "06_debug/调试dart代码.md"
+        },
+        {
+          "title": "Debugging",
+          "path": "06_debug/README_EN.md",
+          "lang": "en"
+        },
+        {
+          "title": "Debugging Dart Code",
+          "path": "06_debug/debugging-dart-code.md",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "title": "三方库接入",
+      "path": "07_plugin",
+      "icon": "🔌",
+      "children": [
+        {
+          "title": "三方库接入概览",
+          "path": "07_plugin/README.md"
+        },
+        {
+          "title": "ohos平台适配flutter三方库指导",
+          "path": "07_plugin/ohos平台适配flutter三方库指导.md"
+        },
+        {
+          "title": "ohos平台适配flutter三方库说明文档模版",
+          "path": "07_plugin/ohos平台适配flutter三方库说明文档模版.md"
+        },
+        {
+          "title": "Third-Party Library Access",
+          "path": "07_plugin/README_EN.md",
+          "lang": "en"
+        },
+        {
+          "title": "Developing an OHOS Plugin using Flutter",
+          "path": "07_plugin/developing-an-ohos-plugin-using-flutter.md",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "title": "常见问题",
+      "path": "08_FAQ",
+      "icon": "❓",
+      "children": [
+        {
+          "title": "FAQ概览",
+          "path": "08_FAQ/README.md"
+        },
+        {
+          "title": "环境相关问题",
+          "path": "08_FAQ/环境相关问题.md"
+        },
+        {
+          "title": "ohos引擎产物编译相关问题",
+          "path": "08_FAQ/ohos引擎产物编译相关问题.md"
+        },
+        {
+          "title": "ohos应用编译相关问题",
+          "path": "08_FAQ/ohos应用编译相关问题.md"
+        },
+        {
+          "title": "ohos代码开发相关问题",
+          "path": "08_FAQ/ohos代码开发相关问题.md"
+        },
+        {
+          "title": "ohos运行相关问题",
+          "path": "08_FAQ/ohos运行相关问题.md"
+        },
+        {
+          "title": "解析flutter相关的cppcrash堆栈",
+          "path": "08_FAQ/解析flutter相关的cppcrash堆栈.md"
+        },
+        {
+          "title": "申请权限相关问题",
+          "path": "08_FAQ/申请权限相关问题.md"
+        },
+        {
+          "title": "FAQs",
+          "path": "08_FAQ/README_EN.md",
+          "lang": "en"
+        },
+        {
+          "title": "Environment Issues",
+          "path": "08_FAQ/environment.md",
+          "lang": "en"
+        },
+        {
+          "title": "Flutter CPP Crash Guideline",
+          "path": "08_FAQ/flutter-cppcrash-guideline.md",
+          "lang": "en"
+        },
+        {
+          "title": "OHOS Application Compilation",
+          "path": "08_FAQ/ohos-application-compilation.md",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "title": "规格说明",
+      "path": "09_specifications",
+      "icon": "📋",
+      "children": [
+        {
+          "title": "规格说明概览",
+          "path": "09_specifications/README.md"
+        },
+        {
+          "title": "Flutter OpenHarmony化工程的目录结构",
+          "path": "09_specifications/openHarmony-flutter化工程的目录结构.md"
+        },
+        {
+          "title": "更新Flutter插件项目结构",
+          "path": "09_specifications/更新Flutter插件项目结构.md"
+        },
+        {
+          "title": "Specifications",
+          "path": "09_specifications/README_EN.md",
+          "lang": "en"
+        },
+        {
+          "title": "Directory Structure of OpenHarmony Flutter Project",
+          "path": "09_specifications/directory-structure-of-the-openharmony-flutter-project.md",
+          "lang": "en"
+        },
+        {
+          "title": "Update Flutter Plugin Structure",
+          "path": "09_specifications/update-flutter-plugin-structure.md",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "title": "附录",
+      "path": "10_appendix",
+      "icon": "📎",
+      "children": [
+        {
+          "title": "Appendix",
+          "path": "10_appendix/README_EN.md",
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "title": "Flutter适配层API",
+      "path": "11_flutter_api_docs",
+      "icon": "📖",
+      "children": [
+        {
+          "title": "API文档概览",
+          "path": "11_flutter_api_docs/README.md"
+        }
+      ]
+    },
+    {
+      "title": "场景化案例",
+      "path": "Scenario_based_cases",
+      "icon": "📝",
+      "children": [
+        {
+          "title": "场景化案例概览",
+          "path": "Scenario_based_cases/README.md"
+        },
+        {
+          "title": "稳定性问��场景案例",
+          "path": "Scenario_based_cases/稳定性问题场景案例.md"
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "images": "media",
+    "publicPath": "/docs"
+  },
+  "search": {
+    "enabled": true,
+    "indexFiles": ["**/*.md"],
+    "excludeFiles": ["node_modules/**", ".git/**"]
+  },
+  "metadata": {
+    "author": "OpenHarmony Flutter Team",
+    "repository": "https://gitcode.com/openharmony-tpc/flutter_samples",
+    "license": "Apache-2.0",
+    "keywords": [
+      "Flutter",
+      "OpenHarmony",
+      "OHOS",
+      "跨平台",
+      "移动开发",
+      "文档"
+    ]
+  },
+  "features": {
+    "codeHighlight": true,
+    "tableOfContents": true,
+    "breadcrumb": true,
+    "lastUpdated": true,
+    "contributors": true,
+    "editLink": true
+  }
+}
